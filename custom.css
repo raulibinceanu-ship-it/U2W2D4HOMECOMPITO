@@ -1,0 +1,151 @@
+/* Fontsize da .fs-7 a .fs-10 */
+
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+.fs-8 {
+  font-size: 0.7rem !important;
+}
+.fs-9 {
+  font-size: 0.65rem !important;
+}
+.fs-10 {
+  font-size: 0.6rem !important;
+}
+
+/* Border width da .border-6 a .border-10 */
+.border-6 {
+  border-width: 6px !important;
+}
+.border-7 {
+  border-width: 7px !important;
+}
+.border-8 {
+  border-width: 8px !important;
+}
+.border-9 {
+  border-width: 9px !important;
+}
+.border-10 {
+  border-width: 10px !important;
+}
+
+/* Card saldi */
+.card-saldi {
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  border-radius: 2rem;
+  background-color: #212529;
+  color: #00ffea;
+}
+
+/* IMG offerta del giorno */
+.offerta-img {
+  border: 10px solid #00ffea;
+  border-radius: 1rem;
+}
+
+/* Bottoni */
+.btn {
+  padding: 0.75rem 2.5rem !important;
+  border-radius: 9999px !important; /* stile pillola */
+}
+
+/*Gutter*/
+.row:not([class*="g-"]):not([class*="gx-"]):not([class*="gy-"]) {
+  --bs-gutter-x: 0.5rem;
+  --bs-gutter-y: 0.5rem;
+}
+
+/* Card basic */
+.card {
+  background-color: #212529 !important;
+  color: #00ffea !important;
+  border-radius: 2rem !important;
+}
+
+/* Colori danger/info/light */
+.text-danger,
+.btn-danger,
+.bg-danger {
+  color: #1f0077 !important;
+  background-color: #1f0077 !important;
+  border-color: #1f0077 !important;
+}
+.text-info,
+.btn-info,
+.bg-info {
+  color: #00ffea !important;
+  background-color: #00ffea !important;
+  border-color: #00ffea !important;
+}
+.text-light,
+.bg-light {
+  color: #feefff !important;
+  background-color: #feefff !important;
+}
+
+/* Epicolors */
+.text-epicode-1 {
+  color: #5726c3 !important;
+}
+.text-epicode-2 {
+  color: #8625a5 !important;
+}
+.text-epicode-3 {
+  color: #cb2376 !important;
+}
+
+.bg-epicode-1 {
+  background-color: #5726c3 !important;
+}
+.bg-epicode-2 {
+  background-color: #8625a5 !important;
+}
+.bg-epicode-3 {
+  background-color: #cb2376 !important;
+}
+
+.btn-epicode-1 {
+  background-color: #5726c3;
+  border-color: #5726c3;
+  color: #fff;
+}
+.btn-epicode-2 {
+  background-color: #8625a5;
+  border-color: #8625a5;
+  color: #fff;
+}
+.btn-epicode-3 {
+  background-color: #cb2376;
+  border-color: #cb2376;
+  color: #fff;
+}
+
+/* Bottone outline */
+.btn-outline-epicode-2 {
+  color: #8625a5;
+  border: 2px solid #8625a5;
+  background-color: transparent;
+}
+.btn-outline-epicode-2:hover {
+  background-color: #8625a5;
+  color: #fff;
+}
+
+/* Breakpoint 3 e 4 xl */
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1520px;
+  }
+}
+@media (min-width: 1800px) {
+  .container {
+    max-width: 1720px;
+  }
+}
+
+/* Footer */
+footer p,
+footer div {
+  font-size: 0.6rem !important; /* come fs-10 */
+}
