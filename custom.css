@@ -37,11 +37,43 @@
   background-color: #212529;
   color: #00ffea;
 }
+#saldi .col-6,
+#saldi .col-md-4,
+#saldi .col-lg-3 {
+  display: flex;
+}
+
+#saldi .card {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#saldi .card img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+#saldi .card .btn {
+  align-self: center;
+  margin-top: auto;
+}
 
 /* IMG offerta del giorno */
 .offerta-img {
+  display: block;
+  width: 100%;
+  height: auto;
   border: 10px solid #00ffea;
   border-radius: 1rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
 }
 
 /* Bottoni */
@@ -62,6 +94,35 @@
   color: #00ffea !important;
   border-radius: 2rem !important;
 }
+.card {
+  background-color: #212529 !important;
+  color: #00ffea !important;
+  border-radius: 2rem !important;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.col-6,
+.col-md-4,
+.col-lg-3 {
+  display: flex;
+}
 
 /* Colori danger/info/light */
 .text-danger,
@@ -74,7 +135,7 @@
 .text-info,
 .btn-info,
 .bg-info {
-  color: #00ffea !important;
+  color: #000 !important;
   background-color: #00ffea !important;
   border-color: #00ffea !important;
 }
@@ -109,27 +170,30 @@
   background-color: #5726c3;
   border-color: #5726c3;
   color: #fff;
+  font-weight: 600;
 }
 .btn-epicode-2 {
   background-color: #8625a5;
   border-color: #8625a5;
   color: #fff;
+  font-weight: 600;
 }
 .btn-epicode-3 {
   background-color: #cb2376;
   border-color: #cb2376;
   color: #fff;
+  font-weight: 600;
 }
 
 /* Bottone outline */
 .btn-outline-epicode-2 {
-  color: #8625a5;
+  color: #8625a5 !important;
   border: 2px solid #8625a5;
   background-color: transparent;
 }
 .btn-outline-epicode-2:hover {
-  background-color: #8625a5;
-  color: #fff;
+  background-color: #8625a5 !important;
+  color: #fff !important;
 }
 
 /* Breakpoint 3 e 4 xl */
